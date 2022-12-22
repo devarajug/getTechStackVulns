@@ -1,5 +1,5 @@
-from gettechstackvulns import __version__
-from gettechstackvulns import TechStack
+from scantechstackvulns import __version__
+from scantechstackvulns import TechStack
 
 def test_version():
     assert __version__ == '1.0.0'

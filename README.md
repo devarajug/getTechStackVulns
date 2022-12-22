@@ -5,11 +5,15 @@ This package is useful for fetching known vulnerabilities of third party compone
 ## Getting Started
 Using get-techstack-vulnerabilities takes almost no time! Simply install via the pip command:
 
-`pip install getTechStackVulns`
+```
+pip install scantechstackvulns
+```
 
 From here you can import it into your source file by calling:
 
-`from gettechstackvulns import TechStack`
+```
+from scantechstackvulns import TechStack
+```
 
 ## How it works
 It takes list of thirdparty components with versions as a input and generates an excel file of known vulnerabilities of that list of components.
@@ -19,7 +23,7 @@ It takes list of thirdparty components with versions as a input and generates an
 The below is the way to use of this package
 
 ```
-from gettechstackvulns import TechStack
+from scantechstackvulns import TechStack
 
 technology_stack = [
     "postgresql 11.11",                     #|
