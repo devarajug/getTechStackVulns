@@ -4,6 +4,7 @@ This package is useful for fetching known vulnerabilities of third party compone
 
 ## Getting Started
 Using get-techstack-vulnerabilities takes almost no time! Simply install via the pip command:
+
 `pip install getTechStackVulns`
 
 From here you can import it into your source file by calling:
