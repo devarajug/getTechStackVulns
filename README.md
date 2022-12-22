@@ -41,7 +41,7 @@ TechStack.scan(techstack, output_file)
 ## Note
 - technology stack must contain exact version
 - as of now only xlsx extension supports in output file
-- [here](./sample.xlsx) is the sample xlsx file to verify
+- [here](https://github.com/devarajug/getTechStackVulns/blob/main/sample.xlsx) is the sample xlsx file to verify
 
 
 # License
