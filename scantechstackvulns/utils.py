@@ -23,7 +23,7 @@ def getCpeMatchStrings(techstack):
             result = response.json()
             for product in result.get("products"):
                 match_string = product.get("cpe", {}).get("cpeName")
-                if all(x in match_string for x in each.split(" ")):
+                if all(x.lower() in match_string.lower() for x in each.split(" ")):
                     cpeMatchStrings[str(each)] = str(match_string)
         print(f"CPE Match String for {each}: {cpeMatchStrings.get(each)}")
     print()
